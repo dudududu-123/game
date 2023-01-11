@@ -288,6 +288,11 @@
       }
     ],
     "Motions": {
+      "Sadmotion": [
+        {
+          "File": "../motion/Sadmotion.motion3.json"
+        }
+      ],
       "Happymotion": [
         {
           "File": "../motion/Happymotion.motion3.json"
