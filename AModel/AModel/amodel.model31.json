@@ -286,23 +286,7 @@
         "Name": "Surprised_10",
         "File": "../expression/Surprised_10.exp3.json"
       }
-    ],
-    "Motions": {
-      "All": [
-        {
-          "File": "../motion/01.motion3.json"
-        },
-        {
-          "File": "../motion/02.motion3.json"
-        },
-        {
-          "File": "../motion/03.motion3.json"
-        },
-        {
-          "File": "../motion/04.motion3.json"
-        }
-      ]
-    }
+    ]
   },
   "Groups": [
     {
