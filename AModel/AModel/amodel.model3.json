@@ -8,43 +8,43 @@
     "Expressions": [
       {
         "Name": "Happy_01",
-        "File": "../expression/Happy_01.exp3.json"
+        "File": "../../AModel/expression/Happy_01.exp3.json"
       },
       {
         "Name": "Happy_02",
-        "File": "../expression/Happy_02.exp3.json"
+        "File": "../../AModel/expression/Happy_02.exp3.json"
       },
       {
         "Name": "Happy_03",
-        "File": "../expression/Happy_03.exp3.json"
+        "File": "../../AModel/expression/Happy_03.exp3.json"
       },
       {
         "Name": "Happy_04",
-        "File": "../expression/Happy_04.exp3.json"
+        "File": "../../AModel/expression/Happy_04.exp3.json"
       },
       {
         "Name": "Happy_05",
-        "File": "../expression/Happy_05.exp3.json"
+        "File": "../../AModel/expression/Happy_05.exp3.json"
       },
       {
         "Name": "Happy_06",
-        "File": "../expression/Happy_06.exp3.json"
+        "File": "../../AModel/expression/Happy_06.exp3.json"
       },
       {
         "Name": "Happy_07",
-        "File": "../expression/Happy_07.exp3.json"
+        "File": "../../AModel/expression/Happy_07.exp3.json"
       },
       {
         "Name": "Happy_08",
-        "File": "../expression/Happy_08.exp3.json"
+        "File": "../../AModel/expression/Happy_08.exp3.json"
       },
       {
         "Name": "Happy_09",
-        "File": "../expression/Happy_09.exp3.json"
+        "File": "../../AModel/expression/Happy_09.exp3.json"
       },
       {
         "Name": "Happy_10",
-        "File": "../expression/Happy_10.exp3.json"
+        "File": "../../AModel/expression/Happy_10.exp3.json"
       },
       {
         "Name": "Anger_01",
@@ -288,37 +288,66 @@
       }
     ],
     "Motions": {
-      "Sadmotion": [
+      "": [
         {
-          "File": "../motion/Sadmotion.motion3.json"
-        }
-      ],
-      "Happymotion": [
+          "File": "../../AModel/motion/HappymotionA.motion3.json"
+        },
         {
-          "File": "../motion/Happymotion.motion3.json"
-        }
-      ],
-      "Angermotion": [
-        {
-          "File": "../motion/Angermotion.motion3.json"
-        }
-      ],
-      "Disgustmotion": [
+          "File": "../../AModel/motion/HappymotionB.motion3.json"
+        },
         {
           "File": "../motion/Disgustmotion.motion3.json"
         }
       ],
-      "Fearmotion": [
+      "All": [
+        {
+          "File": "../motion/HappymotionA.motion3.json"
+        },
+        {
+          "File": "../motion/HappymotionB.motion3.json"
+        },
+        {
+          "File": "../motion/Anger_Lipsync.motion3.json"
+        },
+        {
+          "File": "../motion/Angermotion.motion3.json"
+        },
+        {
+          "File": "../motion/Disgust_Lipsync.motion3.json"
+        },
+        {
+          "File": "../motion/Disgustmotion.motion3.json"
+        },
+        {
+          "File": "../motion/Fear_Lipsync.motion3.json"
+        },
         {
           "File": "../motion/Fearmotion.motion3.json"
-        }
-      ],
-      "Regretmotion": [
+        },
+        {
+          "File": "../motion/Happy_Lipsync.motion3.json"
+        },
+        {
+          "File": "../motion/Happymotion.motion3.json"
+        },
+        {
+          "File": "../motion/Regret_Lipsync.motion3.json"
+        },
         {
           "File": "../motion/Regretmotion.motion3.json"
-        }
-      ],
-      "All": [
+        },
+        {
+          "File": "../motion/Sad_Lipsync.motion3.json"
+        },
+        {
+          "File": "../motion/Sadmotion.motion3.json"
+        },
+        {
+          "File": "../motion/Surprised_Lipsync.motion3.json"
+        },
+        {
+          "File": "../motion/Surprisedmotion.motion3.json"
+        },
         {
           "File": "../motion/01.motion3.json"
         },
@@ -337,9 +366,19 @@
           "File": "../motion/Anger_Lipsync.motion3.json"
         }
       ],
+      "Anger": [
+        {
+          "File": "../motion/Angermotion.motion3.json"
+        }
+      ],
       "Disgust_Lip": [
         {
           "File": "../motion/Disgust_Lipsync.motion3.json"
+        }
+      ],
+      "Disgust": [
+        {
+          "File": "../motion/Disgustmotion.motion3.json"
         }
       ],
       "Fear_Lip": [
@@ -347,9 +386,19 @@
           "File": "../motion/Fear_Lipsync.motion3.json"
         }
       ],
+      "Fear": [
+        {
+          "File": "../motion/Fearmotion.motion3.json"
+        }
+      ],
       "Happy_Lip": [
         {
           "File": "../motion/Happy_Lipsync.motion3.json"
+        }
+      ],
+      "Happy": [
+        {
+          "File": "../motion/Happymotion.motion3.json"
         }
       ],
       "Regret_Lip": [
@@ -357,9 +406,19 @@
           "File": "../motion/Regret_Lipsync.motion3.json"
         }
       ],
+      "Regret": [
+        {
+          "File": "../motion/Regretmotion.motion3.json"
+        }
+      ],
       "Sad_Lip": [
         {
           "File": "../motion/Sad_Lipsync.motion3.json"
+        }
+      ],
+      "Sad": [
+        {
+          "File": "../motion/Sadmotion.motion3.json"
         }
       ],
       "Surprised_Lip": [
@@ -367,18 +426,37 @@
           "File": "../motion/Surprised_Lipsync.motion3.json"
         }
       ],
+      "Surprised": [
+        {
+          "File": "../motion/Surprisedmotion.motion3.json"
+        }
+      ],
       "Idle": [
         {
-          "File": "../motion/Anger_Lipsync.motion3.json"
+          "File": "../motion/01.motion3.json"
         },
         {
-          "File": "../motion/Disgustmotion.motion3.json"
+          "File": "../motion/02.motion3.json"
         },
         {
-          "File": "../motion_happy/HappymotionA.motion3.json"
+          "File": "../motion/03.motion3.json"
         },
         {
-          "File": "../motion/Sadmotion.motion3.json"
+          "File": "../motion/04.motion3.json"
+        }
+      ],
+      "StartSpeak": [
+        {
+          "File": "../motion/01.motion3.json"
+        },
+        {
+          "File": "../motion/02.motion3.json"
+        },
+        {
+          "File": "../motion/03.motion3.json"
+        },
+        {
+          "File": "../motion/04.motion3.json"
         }
       ]
     }
@@ -387,7 +465,7 @@
     {
       "Target": "Parameter",
       "Name": "EyeBlink",
-      "Ids": []
+      "Ids": ["ParamEyeOpenL", "ParamEyeOpenR"]
     },
     {
       "Target": "Parameter",
